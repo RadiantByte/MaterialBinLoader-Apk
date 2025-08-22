@@ -28,6 +28,7 @@ public class Launcher extends com.mojang.minecraftpe.MainActivity {
     static {
         System.loadLibrary("c++_shared");
         System.loadLibrary("fmod");
+        System.loadLibrary("maesdk");
         System.loadLibrary("minecraftpe");
         System.loadLibrary("mc");
         System.loadLibrary("materialbinloader");
